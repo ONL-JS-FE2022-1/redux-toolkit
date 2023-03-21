@@ -1,8 +1,8 @@
 const CONSTANTS =  {
  LANGUAGE: {
-    EN_US: 'en_us',
-    UA_UA: 'ua_ua',
-    DE_DE: 'de_de'
+    EN_US: {VALUE: 'en_us', OPTION_TEXT: 'English'},
+    UA_UA: {VALUE: 'ua_ua', OPTION_TEXT: 'Українська'},
+    DE_DE: {VALUE: 'de_de', OPTION_TEXT: 'Deutch'}
  }
 }
 
