@@ -3,7 +3,8 @@ import * as API from 'api';
 
 const SLICE_NAME = 'users';
 
-const getUsers = createAsyncThunk(`${SLICE_NAME}/getUsers`, () => {
+const getUsers = createAsyncThunk(`${SLICE_NAME}/getUsers`, async (arg) => {
+    console.log(`arg is ${arg}`);
     return API.getUsers();
 })
 
